@@ -1,0 +1,149 @@
+html{
+  padding-top: 50px;
+  background: url(images/fieldbg.jpg) no-repeat;
+  background-size: cover;
+
+  margin: 0;
+  left:0;
+   {-webkit-transition-timing-function: ease-in-out;}
+   {transition-timing-function: ease-in-out;}
+
+}
+.ui-btn{
+  box-shadow: 1px 1px 1px 1px #000;
+  border: none;
+  color: #000;
+  background-color: #888;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(180deg, yellow, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, white, #888); /* Standard syntax (must be last) */
+}
+
+#pageone{
+  margin-top: 500px;
+    background: url(images/bgweb.jpg);
+  height: 30px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+}
+#pagetwo{
+    background: url(images/bgweb.jpg);
+  height: 500px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+}
+#nba{
+  background: url(images/bc.jpg);
+  height: 500px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+
+}
+#mlb{
+  background: url(images/bf.jpg);
+  height: 500px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+}
+#nfl{
+  background: url(images/fieldbg.jpg);
+  height: 500px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+
+}
+#nhl{
+  background: url(images/hockey.jpg);
+  height: 500px;
+  width: 320px;
+  margin:auto;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  box-shadow: 0px 10px 10px 0px #000;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.ui-btn:hover{
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+
+
+img{
+  
+  height: 62px;
+  width: 300px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+  
+}
+.sports{
+  height: 20px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+#pageone p{
+margin-top: 50%;
+}
+.logo{
+  height: 100px;
+  width: 43px;
+  background:none;
+margin: auto;
+  margin-top: 0px;
+}
+.embed-responsive{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+iframe{
+  margin: auto;
+}

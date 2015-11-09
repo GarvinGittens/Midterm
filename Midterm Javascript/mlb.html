@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+<body>
+
+<!--MLB PAGE -->
+    <div data-role="page" data-transition="turn" id="mlb">
+  <div data-role="header">
+   <a href="sport.html"><img src="images/sportsmainia.gif"></a>
+   <div class="logo"> 
+   <img src="Logos/mlb.png" style="width:64px;height:41px;">
+   </div>
+
+   <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="260" height="215" src="https://www.youtube.com/embed/GhF-hGOJCoM" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+      
+      <a href="#" class="ui-btn">
+        NYM  vs  KC <br>
+          <p id="game"></p>
+      </a>
+    
+
+     <a href="#" class="ui-btn">
+        NYM  vs  KC <br>
+          <p id="game1"></p>
+      </a>
+    
+
+<a href="#" class="ui-btn">
+        KC  vs  NYM <br>
+          <p id="game2"></p>
+      </a>
+    
+
+<a href="#" class="ui-btn">
+        KC  vs  NYM <br>
+          <p id="game3"></p>
+      </a>
+    
+
+    <a href="#" class="ui-btn">
+        KC  vs  NYM <br>
+          <p id="game4"></p>
+      </a>
+    
+
+     
+
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+var text = '{"score":[' +
+'{"away":"4","home":"5" },' +
+'{"away":"1","home":"7" },' +
+'{"away":"3","home":"9" },' +
+'{"away":"5","home":"3" },' +
+'{"away":"7","home":"2" }]}';
+ 
+obj = JSON.parse(text);
+document.getElementById("game").innerHTML =
+obj.score[0].away + " Final" + " " + obj.score[0].home;
+
+obj = JSON.parse(text);
+document.getElementById("game1").innerHTML =
+obj.score[1].away + " Final" + " " + obj.score[1].home;
+
+obj = JSON.parse(text);
+document.getElementById("game2").innerHTML =
+obj.score[2].away + " Final" + " " + obj.score[2].home;
+
+obj = JSON.parse(text);
+document.getElementById("game3").innerHTML =
+obj.score[3].away + " Final" + " " + obj.score[3].home;
+
+obj = JSON.parse(text);
+document.getElementById("game4").innerHTML =
+obj.score[4].away + " Final" + " " + obj.score[4].home;
+</script>
+
+ 
+</body>
+</html>

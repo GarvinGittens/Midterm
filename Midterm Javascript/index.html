@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- pageone -->
+<div data-role="page" id="pageone">
+  <div data-role="header">
+   <a href="#pageone"><img src="images/Sportsmainia.png"></a>
+
+   <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="260" height="215" src="https://www.youtube.com/embed/dAKaUVORP4Q" frameborder="0" allowfullscreen></iframe>
+  </div>
+   
+      <a href="sport.html" class="ui-btn">Enter Sportsmainia</a>
+      
+  </div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+var text = '{"score":[' +
+'{"away":"80","home":"93" },' +
+'{"away":"106","home":"94" },' +
+'{"away":"95","home":"111" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("game").innerHTML =
+obj.score[0].away + " Final" + " " + obj.score[0].home;
+
+obj = JSON.parse(text);
+document.getElementById("game1").innerHTML =
+obj.score[1].away + " Final" + " " + obj.score[1].home;
+
+obj = JSON.parse(text);
+document.getElementById("game2").innerHTML =
+obj.score[2].away + " Final" + " " + obj.score[2].home;
+</script>
+
+
+
+
+
+
+
+ 
+</body>
+</html>
